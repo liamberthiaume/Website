@@ -1,0 +1,197 @@
+:root {
+    --brightRed: #e40101;
+    --yellowBackground: linear-gradient(#ffe330, rgb(255, 166, 0));
+    --grayShadow: gray;
+    --blackBorderOrText: black;
+}
+
+ body {
+     background: var(--yellowBackground);
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: grid;
+     grid-template-rows: 1fr auto;
+ }
+
+ header {
+    background-color: var(--brightRed);
+ }
+
+ header, nav a {
+     border: 5px solid var(--blackBorderOrText);
+     border-radius: 5px;
+     margin: 25px;
+     padding: 10px;
+     box-shadow: 5px 5px var(--grayShadow);
+ }
+
+ header h1 {
+     font-size: 4em;
+     text-align: left;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 10px;
+ }
+
+ header h2 {
+     font-size: 1.75em;
+     text-align: left;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 10px;
+ }
+
+ header img {
+     max-height: 110px;
+     max-width: 110px;
+     float: right;
+ }
+
+ header nav a {
+     font-size: 1.5em;
+     text-decoration: none;
+     text-align: left;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 10px;
+     color: var(--blackBorderOrText);
+     padding: 10px;
+     display: inline-block;
+ }
+
+ footer {
+     border: 5px solid var(--blackBorderOrText);
+     border-radius: 5px;
+     background-color: var(--brightRed);
+     margin: 25px;
+     padding: 10px;
+     box-shadow: 5px 5px var(--grayShadow);
+ }
+
+ footer nav a {
+     font-size: 1.5em;
+     text-decoration: none;
+     text-align: left;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 10px;
+     padding: 10px;
+     color: var(--blackBorderOrText);
+     text-align: center;
+ }
+
+ nav li, footer li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer, footer nav a, footer li {
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p a {
+    color: var(--blackBorderOrText);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer p a:hover {
+    font-style: italic;
+}
+
+main section {
+    border: 5px solid var(--blackBorderOrText);
+    border-radius: 5px;
+    background-color: var(--brightRed);
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 5px 5px var(--grayShadow);
+}
+
+main section h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+main section a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid var(--blackBorderOrText);
+    color: var(--blackBorderOrText);
+    border-radius: 5px;
+    background-color: var(--brightRed);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px var(--grayShadow);
+}
+
+main section a:hover {
+    font-style: italic;
+    color: var(--brightRed);
+    background-color: var(--blackBorderOrText);
+}
+
+main section p::first-letter {
+    font-size: 1.3em;
+}
+
+.imageOne {
+    container-type: inline-size;
+    float: right;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.imageTwo {
+    container-type: inline-size;
+    float: left;
+    max-height: 300px;
+    max-width: 250px;
+}
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid var(--blackBorderOrText);
+    display: table-cell;
+}
+
+table, th, td {
+    border: 5px solid var(--blackBorderOrText)
+}
+
+table tr th, table tr td {
+    padding: 5px;
+    padding-inline: 10px;
+}
+
+
+header nav ul li a:hover, footer nav ul li a:hover {
+    background-color: var(--blackBorderOrText);
+    color: var(--brightRed);
+}
+
+.card   {
+    container-type: inline-size;
+} 
+
+ @media all and (max-width: 768px) {
+    header nav {
+        text-align: center;
+    }
+    
+    footer nav a {
+        border: 4px solid var(--blackBorderOrText);
+        box-shadow: 5px 5px var(--grayShadow);
+        text-align: center;
+    }
+    footer li {
+        font-size: 0.8em;
+        line-height: 50pt;
+    }
+ }
