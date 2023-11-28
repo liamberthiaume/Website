@@ -1,2 +1,2 @@
 # Website
-Web Programming 1 PEA
+This is the Web Programming 1 Static Website PEA 
