@@ -159,11 +159,19 @@ main section p::first-letter {
     max-width: 250px;
 }
 
+caption {
+    font-size: xx-large;
+}
+
 table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 5px solid var(--blackBorderOrText);
-    display: table-cell;
     border-collapse: collapse;
+}
+
+.centertable {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table, th, td {
