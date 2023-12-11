@@ -185,6 +185,8 @@ header nav ul li a:hover, footer nav ul li a:hover {
     container-type: inline-size;
 } 
 
+
+
  @media all and (max-width: 768px) {
     header nav {
         text-align: center;
@@ -213,3 +215,22 @@ header nav ul li a:hover, footer nav ul li a:hover {
         padding-top: 20px;
     }
  }
+
+ /* im putting this here so it overrides some code since i have no idea what to remove to make this work */
+
+.headergrid {
+    display: grid;
+    grid-template-columns: (1fr, 1fr);
+    grid-template-rows: (1fr, 1fr);
+    justify-items: left;
+}
+.headergrid1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.headergrid2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.headergrid3 {
+    grid-area: 1 / 2 / 3 / 3;
+    justify-self: right;
+}
