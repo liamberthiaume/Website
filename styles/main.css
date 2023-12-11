@@ -159,6 +159,10 @@ main section p::first-letter {
     max-width: 250px;
 }
 
+img {
+    margin: 10px;
+}
+
 caption {
     font-size: xx-large;
 }
