@@ -193,5 +193,18 @@ header nav ul li a:hover, footer nav ul li a:hover {
     footer li {
         font-size: 0.8em;
         line-height: 50pt;
+        margin: 5px
+        
+    }
+    footer li a {
+        margin: 5px;
+    }
+    header li, header li a {
+        margin: 5px;
+    }
+    ul {
+
+        padding-right: 50px;
+        padding-top: 20px;
     }
  }
