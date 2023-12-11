@@ -110,11 +110,15 @@ main section {
     box-shadow: 5px 5px var(--grayShadow);
 }
 
-main section h2 {
+main section h1, main section h2, h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-main section p {
+main h1 {
+    font-size:xx-large;
+}
+
+main section p  {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
 }
@@ -159,6 +163,7 @@ table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 5px solid var(--blackBorderOrText);
     display: table-cell;
+    border-collapse: collapse;
 }
 
 table, th, td {
