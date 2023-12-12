@@ -71,18 +71,23 @@
      text-align: left;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin: 10px;
+     margin-bottom: 60px;
      padding: 10px;
      color: var(--blackBorderOrText);
      text-align: center;
  }
+ footer nav li {
+    margin-bottom: 40px;
+ }
 
  nav li, footer li {
     display: inline-block;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
+
 footer, footer nav a, footer li {
     text-align: center;
 }
