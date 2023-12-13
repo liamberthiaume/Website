@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/contactforms.css">
     <link rel="icon" type="/image/x-icon" href="./BB_6.0.ico">
 </head>
 <body>
@@ -36,9 +37,67 @@
 
 <main>
 
+    <section>
+    <h1>Contact us</h1>
 
+    <form>    
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="fname" name="lname"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="Email" name="Email">
 
+        <fieldset>
+            <legend>Select your favorite product</legend>
+            <input type="radio" id="set" name="BB">
+            <label for="set">Pre-built sets</label><br>
+            <input type="radio" id="custom" name="BB">
+            <label for="custom">Custom orders</label><br>
+            <input type="radio" id="mini" name="BB">
+            <label for="mini">Custom minifigures</label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Do you won any of these products?</legend>
+            <input type="checkbox" id="sets" name="sets">
+            <label for="sets">A pre-built set</label><br>
+            <input type="checkbox" id="assortment" name="assortment">
+            <label for="assortment">A custom order</label><br>
+            <input type="checkbox" id="minifig" name="minifig">
+            <label for="minifig">A custom minifigure</label><br>
+            <input type="checkbox" id="none" name="none">
+            <label for="none">None of the above</label>
+             
+        </fieldset>
+    
+        <fieldset>
+            <legend>How did you hear about us?</legend>
+        <select id="mySelectBox" multiple>
+            <optgroup label="Online">
+              <option value="ia">Internet ad</option>
+              <option value="search">Searching for similar product</option>
+              <option value="recommend">Recommendation</option>
+            </optgroup>
+            <optgroup label="Offline">
+              <option value="friend">Through a friend</option>
+              <option value="family">Through family</option>
+              <option value="store">Visited our dtore</option>
+            </optgroup>
+          </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Enter any questions here:</legend>
+        <textarea id="question" name="question"></textarea>
+        </fieldset>
+        
+        <input type="reset" value="Cancel"> 
+        <input type="submit" value="Submit">
+        
+    </form>
+
+</section>
 
 
 
@@ -65,8 +124,7 @@
         <li><a href="./contactus.html">Contact us</a></li>
         </ul>
     </nav>
-    <p>Photo of the river taken by <a href="https://www.flickr.com/photos/wiless/51623423512/in/photolist-2mDMxh5-2giXpTm-2hqKS6A-Tbzaad-2hom6io-2giXTtT-2kzD1oJ-2ksfBqR-2ig2moR-UK6oQS-2ifXQXo-2ig2mwB-2ifXRfx-2ifXQKu-sbH7vG-2mhB5JB-2oSwaZs-vtZmLk-2nxwFhD-2mhGetM-2nxwFhP-Twf8d5-2mLTVQB-2G1g4Z-2bN3Xfa-2owUWhP-2mhiecE-2ksbSL5-KavjMP-2mhbS9y-2ngirJv-T3Xawi-2fHbDPN-2ksbSyb-2mv44Qv-JjM6E7-7bjVmt-2m62m5c-Mw15Ra-2mhd3Af-2jXaYYa-2kzARkE-2mhtBde-2kzVAx5-MsnZM2-7dkJV9-rZ8Jw2-7oX3V2-26KTwDT-2kUz7Bp">Will S.</a></p>
-    <p>photo taken by Liam Berthiaume</p>
+   <p>photo taken by Liam Berthiaume</p>
 </footer>
     
 </body>
