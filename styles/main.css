@@ -5,6 +5,10 @@
     --blackBorderOrText: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
  body {
      background: var(--yellowBackground);
      background-repeat: no-repeat;
@@ -178,6 +182,9 @@ table tr th, table tr td {
     padding-inline: 10px;
 }
 
+header nav ul li a:visited, footer nav ul li a:visited {
+    font-family: italic;
+}
 
 header nav ul li a:hover, footer nav ul li a:hover {
     background-color: var(--blackBorderOrText);
@@ -275,6 +282,12 @@ header nav ul li a:hover, footer nav ul li a:hover {
 
     padding: 0px;
     }
+
+    header a, header li {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
  }
 
  @media all and (max-width: 470px) {
@@ -318,4 +331,3 @@ header nav ul li a:hover, footer nav ul li a:hover {
  /* I'm sorry if half of my css makes no sense. it's hard to keep track of an assignment if you take month long hiatuses on each part of it. 
  All I know is that it works. Sorry.
  -Liam  */
-
