@@ -100,6 +100,7 @@ footer p a {
     color: var(--blackBorderOrText);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
 }
 
 footer p a:hover {
@@ -129,21 +130,14 @@ main section p  {
 }
 
 main section a {
+    color: var(--blackBorderOrText);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 5px solid var(--blackBorderOrText);
-    color: var(--blackBorderOrText);
-    border-radius: 5px;
-    background-color: var(--brightRed);
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 5px 5px var(--grayShadow);
+    text-decoration-line: underline;
 }
 
 main section a:hover {
     font-style: italic;
-    color: var(--brightRed);
-    background-color: var(--blackBorderOrText);
 }
 
 main section p::first-letter {
@@ -153,6 +147,12 @@ main section p::first-letter {
 img, video {
     margin: 10px;
 }
+
+main img {
+    border: 5px solid var(--blackBorderOrText);
+     border-radius: 5px;
+     box-shadow: 5px 5px var(--grayShadow);
+ }
 
 caption {
     font-size: xx-large;
