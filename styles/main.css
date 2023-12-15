@@ -225,6 +225,10 @@ header nav ul li a:hover, footer nav ul li a:hover {
     height: 400px;
 }
 
+ a:active {
+    color: var(--grayShadow) !important;
+} /* I have no clue why i need to use !important in order to get it to work, but it does'nt work without it */
+
 @media all and (max-width: 960px) {
     .maingrid {
         display: grid;
