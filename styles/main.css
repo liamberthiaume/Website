@@ -157,11 +157,7 @@ img, video {
     margin: 10px;
 }
 
-main img {
-    border: 5px solid var(--blackBorderOrText);
-     border-radius: 5px;
-     box-shadow: 5px 5px var(--grayShadow);
- }
+
 
 caption {
     font-size: xx-large;
@@ -225,6 +221,12 @@ header nav ul li a:hover, footer nav ul li a:hover {
     grid-area: 1 / 2 / 2 / 3;
     height: 400px;
 }
+
+img:not(.headergrid3) {
+    border: 5px solid var(--blackBorderOrText);
+     border-radius: 5px;
+     box-shadow: 5px 5px var(--grayShadow);
+ }
 
  a:active {
     color: var(--grayShadow) !important;
