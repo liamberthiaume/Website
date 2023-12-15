@@ -1,9 +1,11 @@
-:root {
+@layer {
+    :root {
     --brightRed: #e40101;
     --yellowBackground: linear-gradient(#ffe330, rgb(255, 166, 0));
     --grayShadow: gray;
     --blackBorderOrText: black;
-}
+    --buttonBackground: #ff2600;
+}}
 
 html {
     scroll-behavior: smooth;
@@ -56,6 +58,7 @@ html {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin: 10px;
      color: var(--blackBorderOrText);
+     background-color: var(--buttonBackground);
      padding: 10px;
      display: inline-block;
  }
@@ -79,6 +82,7 @@ html {
      padding: 10px;
      color: var(--blackBorderOrText);
      text-align: center;
+     background-color: var(--buttonBackground);
  }
  footer nav li {
     margin-bottom: 40px;
