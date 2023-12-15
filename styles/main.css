@@ -137,12 +137,13 @@ main section p  {
     font-size: 1.2em;
 }
 
+@layer {
 main section a {
     color: var(--blackBorderOrText);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration-line: underline;
-}
+}}
 
 main section a:hover {
     font-style: italic;
@@ -335,6 +336,8 @@ header nav ul li a:hover, footer nav ul li a:hover {
         width: 200px;
     }
  }
+
+
 
  /* I'm sorry if half of my css makes no sense. it's hard to keep track of an assignment if you take month long hiatuses on each part of it. 
  All I know is that it works. Sorry.
