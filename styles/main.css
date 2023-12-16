@@ -1,11 +1,11 @@
-@layer {
+
     :root {
     --brightRed: #e40101;
     --yellowBackground: linear-gradient(#ffe330, rgb(255, 166, 0));
     --grayShadow: gray;
     --blackBorderOrText: black;
     --buttonBackground: #ff2600;
-}}
+}
 
 html {
     scroll-behavior: smooth;
@@ -137,13 +137,13 @@ main section p  {
     font-size: 1.2em;
 }
 
-@layer {
+
 main section a {
     color: var(--blackBorderOrText);
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration-line: underline;
-}}
+}
 
 main section a:hover {
     font-style: italic;
@@ -194,8 +194,8 @@ header nav ul li a:hover, footer nav ul li a:hover {
 
 .headergrid {
     display: grid;
-    grid-template-columns: (1fr, 1fr);
-    grid-template-rows: (1fr, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-items: left;
 }
 .headergrid1 {
@@ -235,7 +235,7 @@ img:not(.headergrid3) {
 @media all and (max-width: 960px) {
     .maingrid {
         display: grid;
-    grid-template-rows: (1fr, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: (1fr);
     }
     .maingrid1 {
@@ -254,7 +254,7 @@ img:not(.headergrid3) {
 
     .maingrid {
         display: grid;
-    grid-template-rows: (1fr, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: (1fr);
     }
     .maingrid1 {
@@ -316,8 +316,8 @@ img:not(.headergrid3) {
 
     .headergrid {
         display: grid;
-        grid-template-columns: (1fr, 1fr);
-        grid-template-rows: (1fr, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         justify-items: left;
     }
     .headergrid1 {
