@@ -232,6 +232,11 @@ img:not(.headergrid3) {
     color: var(--grayShadow) !important;
 } /* I have no clue why i need to use !important in order to get it to work, but it does'nt work without it */
 
+header p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
 @media all and (max-width: 960px) {
     .maingrid {
         display: grid;
